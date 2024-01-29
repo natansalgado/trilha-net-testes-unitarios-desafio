@@ -9,8 +9,6 @@ public class ValidacoesStringTests
     [Fact]
     public void DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()
     {
-        //TODO: Corrigir a variável "texto" e "resultadoEsperado" da seção Arrange
-
         // Arrange
         var texto = "Matrix";
         var resultadoEsperado = 6;
@@ -23,7 +21,7 @@ public class ValidacoesStringTests
     }
 
     [Fact]
-    public void DeveContemAPalavraQualquerNoTexto()
+    public void DeveConterAPalavraQualquerNoTexto()
     {
         // Arrange
         var texto = "Esse é um texto qualquer";
